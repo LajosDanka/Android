@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void LoginOnClick(View view) {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+
 }
