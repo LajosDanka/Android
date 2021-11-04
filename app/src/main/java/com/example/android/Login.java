@@ -23,21 +23,21 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         String sharedPrefFile = "sharedFile";
         sharedPref = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
-
         username = findViewById(R.id.usernameLogin);
         password = findViewById(R.id.passwordLogin);
     }
 
     public void LoginOnClick(View view){
 
-        Intent replyIntent = new Intent();
-
         String valueForTheKey = sharedPref.getString(username.getText().toString(), "Something#SomethingElse");
 
         String[] spl = valueForTheKey.split("#");
         if (!spl[0].equals("Something") && spl[1].equals(password.getText().toString())) {
             passesUsername = username.getText().toString();
-            setResult(RESULT_OK, replyIntent);
+            Intent intent = new Intent(this, InternalWindow.class);
+            intent.putExtra("username", username.getText().toString());
+            startActivity(intent);
+
         }
 
         finish();

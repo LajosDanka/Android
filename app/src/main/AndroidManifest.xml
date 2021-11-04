@@ -29,6 +29,11 @@
             android:parentActivityName=".MainActivity">
         </activity>
 
+        <activity
+            android:name=".InternalWindow"
+            android:parentActivityName=".Login">
+        </activity>
+
     </application>
 
 </manifest>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:width="410dp"
+        android:onClick="Save"
+        android:text="Mentés"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:width="100dp"
+        android:height="250dp"
+        android:background="#FFFFFF"
+        android:paddingVertical="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toStartOf="@+id/textViewLight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:width="100dp"
+        android:height="250dp"
+        android:background="#FFFFFF"
+        android:paddingVertical="100dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:width="100dp"
+        android:height="250dp"
+        android:background="#FFFFFF"
+        android:paddingVertical="100dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewLight"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="410dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewR1C1"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR1C2"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR1C3"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR1C4"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR1C5"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewR2C1"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR2C2"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR2C3"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR2C4"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR2C5"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewR3C1"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR3C2"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR3C3"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR3C4"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR3C5"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewR4C1"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR4C2"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR4C3"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR4C4"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR4C5"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewR5C1"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR5C2"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR5C3"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR5C4"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewR5C5"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:paddingVertical="20dp"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
