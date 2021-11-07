@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/white">
 
     <Button
         android:id="@+id/saveButton"
@@ -98,7 +98,8 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:textAlignment="center"
-                android:paddingVertical="20dp"
+                android:paddingVertical="5dp"
+                android:textSize="11sp"
                 android:text="" />
 
             <TextView
@@ -153,7 +154,7 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:textAlignment="center"
-                android:paddingVertical="20dp"
+                android:textSize="11sp"
                 android:text="" />
 
             <TextView
@@ -208,7 +209,7 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:textAlignment="center"
-                android:paddingVertical="20dp"
+                android:textSize="11sp"
                 android:text="" />
 
             <TextView
@@ -263,7 +264,7 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:textAlignment="center"
-                android:paddingVertical="20dp"
+                android:textSize="11sp"
                 android:text="" />
 
             <TextView
@@ -301,6 +302,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
+
             <TextView
                 android:id="@+id/textViewR5C1"
                 android:layout_width="82dp"
@@ -318,7 +320,7 @@
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:textAlignment="center"
-                android:paddingVertical="20dp"
+                android:textSize="11sp"
                 android:text="" />
 
             <TextView
