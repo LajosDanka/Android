@@ -297,7 +297,7 @@ public class InternalWindow extends AppCompatActivity implements SensorEventList
 
                     Address address = getAddress();
 
-                    city = address.getAddressLine(0).split(",")[0];
+                    city = address.getLocality();
                 }
             }
         },  Looper.getMainLooper());
